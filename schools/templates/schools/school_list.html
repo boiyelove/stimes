@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<ul>
+{% for item in school_list %}
+	{{ item.name }}
+	{{ item.type }}
+{% endfor %}
+</ul>
+
+<div class = 'container'>
+	<div class = 'col-md-3'>
+		<div class='row'>
+			SIDEBAR
+		</div>
+	</div>
+	<div class ='col-md-8'>
+		<div class='row'>
+			MAIN SHIT
+		</div>
+	</div>
+	<div class = 'col-md-3'>
+		<div class='row'>
+			SIDEBAR
+		</div>
+	</div>
+</div>
+{% endblock %}

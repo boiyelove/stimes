@@ -1,0 +1,12 @@
+@import "compass";
+
+$top_color: #336633;
+
+nav {
+  a{
+    color: $my_color;
+    &:hover {
+      color: darken($my_color, 10%);
+    }
+  }
+}

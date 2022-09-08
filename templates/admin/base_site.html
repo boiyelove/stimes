@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | Stimes.org {% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">STIMES.ORG</a></h1>
+{% include 'autocomplete_light/static.html' %}
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

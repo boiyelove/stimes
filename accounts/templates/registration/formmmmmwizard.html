@@ -1,0 +1,190 @@
+<div class="col-md-12">
+
+                            <!-- START DEFAULT WIZARD -->
+                            <div class="block">
+                                <h4>Default Wizard</h4>
+                                <div class="wizard">
+
+                                    <ul class="steps_4 anchor">
+                                        <li>
+                                            <a href="#step-1" class="done" isdone="1" rel="1">
+                                                <span class="stepNumber">1</span>
+                                                <span class="stepDesc">Step 1<br><small>Step 1 description</small></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#step-2" class="done" isdone="1" rel="2">
+                                                <span class="stepNumber">2</span>
+                                                <span class="stepDesc">Step 2<br><small>Step 2 description</small></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#step-3" class="done" isdone="1" rel="3">
+                                                <span class="stepNumber">3</span>
+                                                <span class="stepDesc">Step 3<br><small>Step 3 description</small></span>                   
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#step-4" class="selected" isdone="1" rel="4">
+                                                <span class="stepNumber">4</span>
+                                                <span class="stepDesc">Step 4<br><small>Step 4 description</small></span>                   
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    
+                                                          
+                                    
+                                                               
+
+                                <div class="stepContainer" style="height: 54px;"><div id="step-1" class="content" style="display: none;">   
+                                        <h4>Step 1 Content</h4>
+                                        <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                                    </div><div id="step-2" class="content" style="display: none;">
+                                        <h4>Step 2 Content</h4>
+                                        <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                                    </div><div id="step-3" class="content" style="display: none;">
+                                        <h4>Step 3 Content</h4>
+                                        <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                                    </div><div id="step-4" class="content" style="display: block;">
+                                        <h4>Step 4 Content</h4>
+                                        <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                                    </div></div><div class="actionBar"><div class="loader">Loading</div><a href="#" class="btn btn-primary pull-right">Finish</a><a href="#" class="btn btn-default pull-right disabled">Next</a><a href="#" class="btn btn-default pull-left">Previous</a></div></div>
+                            </div>                                       
+                            <!-- END DEFAULT WIZARD -->
+
+                            <!-- START WIZARD WITH SUBMIT BUTTON -->
+                            <div class="block">
+                                <h4>Wizard With Submit</h4>                        
+                                <form action="javascript:alert('Submited!');" role="form" class="form-horizontal">
+                                <div class="wizard show-submit">                                
+                                    <ul class="steps_2 anchor">
+                                        <li>
+                                            <a href="#step-5" class="selected" isdone="1" rel="1">
+                                                <span class="stepNumber">1</span>
+                                                <span class="stepDesc">User<br><small>Personal data</small></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#step-6" class="done" isdone="1" rel="2">
+                                                <span class="stepNumber">2</span>
+                                                <span class="stepDesc">Contact<br><small>Information</small></span>
+                                            </a>
+                                        </li>                                    
+                                    </ul>
+                                    
+                                                                                                                                                
+                                <div class="stepContainer" style="height: 149px;"><div id="step-5" class="content" style="display: block;">   
+
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Name</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" placeholder="Your name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">About</label>
+                                            <div class="col-md-10">
+                                                <textarea class="form-control" rows="5" placeholder="Something about you"></textarea>
+                                            </div>
+                                        </div>                                    
+
+                                    </div><div id="step-6" class="content" style="display: none;">
+
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Phone</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" placeholder="Your phone number">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">E-mail</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" placeholder="Your email">
+                                            </div>
+                                        </div>                                    
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Adress</label>
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control" placeholder="City">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control" placeholder="Street">
+                                            </div>
+                                        </div>                                                                        
+
+                                    </div></div><div class="actionBar"><div class="loader">Loading</div><a href="#" class="btn btn-primary pull-right" style="display: block;">Finish</a><a href="#" class="btn btn-default pull-right">Next</a><a href="#" class="btn btn-default pull-left disabled">Previous</a></div></div>
+                                </form>
+                            </div>                        
+                            <!-- END WIZARD WITH SUBMIT BUTTON -->
+
+                            <!-- START WIZARD WITH VALIDATION -->
+                            <div class="block">
+                                <h4>Wizard with form validation</h4>                                
+                                <form action="javascript:alert('Validated!');" role="form" class="form-horizontal" id="wizard-validation" novalidate="novalidate">
+                                <div class="wizard show-submit wizard-validation">
+                                    <ul class="steps_2 anchor">
+                                        <li>
+                                            <a href="#step-7" class="selected" isdone="1" rel="1">
+                                                <span class="stepNumber">1</span>
+                                                <span class="stepDesc">Login<br><small>Information</small></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#step-8" class="disabled" isdone="0" rel="2">
+                                                <span class="stepNumber">2</span>
+                                                <span class="stepDesc">User<br><small>Personal data</small></span>
+                                            </a>
+                                        </li>                                    
+                                    </ul>
+
+                                    
+
+                                                                                                                                                
+                                <div class="stepContainer" style=""><div id="step-7" class="content" style="display: block;">   
+
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Login</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control error" name="login" placeholder="Login" aria-required="true" aria-invalid="true"><label id="login-error" class="error" for="login">This field is required.</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Password</label>
+                                            <div class="col-md-10">
+                                                <input type="password" class="form-control error" name="password" placeholder="Password" id="password" aria-required="true" aria-invalid="true"><label id="password-error" class="error" for="password">This field is required.</label>
+                                            </div>
+                                        </div>             
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Re-Password</label>
+                                            <div class="col-md-10">
+                                                <input type="password" class="form-control error" name="repassword" placeholder="Re-Password" aria-required="true" aria-invalid="true"><label id="repassword-error" class="error" for="repassword">This field is required.</label>
+                                            </div>
+                                        </div>
+
+                                    </div><div id="step-8" class="content" style="display: none;">
+
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Name</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" name="name" placeholder="Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">E-mail</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" name="email" placeholder="Your email">
+                                            </div>
+                                        </div>                                    
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Adress</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" name="adress" placeholder="Your adress">
+                                            </div>                                        
+                                        </div>                                                     
+
+                                    </div></div><div class="actionBar"><div class="loader">Loading</div><a href="#" class="btn btn-primary pull-right disabled">Finish</a><a href="#" class="btn btn-default pull-right">Next</a><a href="#" class="btn btn-default pull-left disabled">Previous</a></div></div>
+                                </form>
+                            </div>                        
+                            <!-- END WIZARD WITH VALIDATION -->
+
+                        </div>
